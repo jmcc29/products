@@ -1,1 +1,14 @@
-export class Product {}
+export class Product {
+    // public id: number;
+    // public name: string;
+    // public description?: string;
+    // public price: number;
+    constructor(
+        public id: string,
+        public name: string,
+        public description: string,
+        public price: number,
+        
+    ) {}
+    //TODO: updateWith
+}
